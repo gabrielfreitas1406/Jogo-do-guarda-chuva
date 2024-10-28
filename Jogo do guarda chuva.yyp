@@ -36,6 +36,7 @@
   },
   "name":"Jogo do guarda chuva",
   "resources":[
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_elemento_lateral","path":"objects/obj_elemento_lateral/obj_elemento_lateral.yy",},},
     {"id":{"name":"obj_elemento_topo","path":"objects/obj_elemento_topo/obj_elemento_topo.yy",},},
     {"id":{"name":"obj_gerador","path":"objects/obj_gerador/obj_gerador.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"s_elemento_quad","path":"sprites/s_elemento_quad/s_elemento_quad.yy",},},
     {"id":{"name":"s_elemento_quadrado","path":"sprites/s_elemento_quadrado/s_elemento_quadrado.yy",},},
+    {"id":{"name":"s_fundo","path":"sprites/s_fundo/s_fundo.yy",},},
     {"id":{"name":"s_guarda_chuva_aberto","path":"sprites/s_guarda_chuva_aberto/s_guarda_chuva_aberto.yy",},},
     {"id":{"name":"s_guarda_chuva_fechado","path":"sprites/s_guarda_chuva_fechado/s_guarda_chuva_fechado.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
