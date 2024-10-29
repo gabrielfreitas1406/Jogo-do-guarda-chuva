@@ -1,5 +1,5 @@
-cam_width = 200;
-cam_height = 120;
+cam_width = 400;
+cam_height = 240;
 
 follow = obj_umbrella;
 
