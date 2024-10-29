@@ -53,6 +53,7 @@
     {"id":{"name":"s_fundo","path":"sprites/s_fundo/s_fundo.yy",},},
     {"id":{"name":"s_guarda_chuva_aberto","path":"sprites/s_guarda_chuva_aberto/s_guarda_chuva_aberto.yy",},},
     {"id":{"name":"s_guarda_chuva_fechado","path":"sprites/s_guarda_chuva_fechado/s_guarda_chuva_fechado.yy",},},
+    {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_umbrella","path":"sprites/spr_umbrella/spr_umbrella.yy",},},
   ],
