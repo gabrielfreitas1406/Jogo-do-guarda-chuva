@@ -3,8 +3,16 @@
 
 //se o gurada chuva tá fechado
 
+
 if(other.image_index == 0){
-	room_restart();
+	
+	if (!inContact){
+		global.lifes-=1;
+		inContact = true;
+	}
+	if (global.lifes <= 0){
+		game_restart();
+	}
 	//instance_destroy(other);
 }
 else if(not touched){

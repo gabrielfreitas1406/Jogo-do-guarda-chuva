@@ -1,5 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+global.lifes = 3; 
 
 
 x = room_width/2;
