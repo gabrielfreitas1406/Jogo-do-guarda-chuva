@@ -36,6 +36,7 @@
   },
   "name":"Jogo do guarda chuva",
   "resources":[
+    {"id":{"name":"fnt_display","path":"fonts/fnt_display/fnt_display.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_elemento_lateral","path":"objects/obj_elemento_lateral/obj_elemento_lateral.yy",},},
     {"id":{"name":"obj_elemento_topo","path":"objects/obj_elemento_topo/obj_elemento_topo.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"obj_guarda_chuva","path":"objects/obj_guarda_chuva/obj_guarda_chuva.yy",},},
     {"id":{"name":"obj_obstaculo","path":"objects/obj_obstaculo/obj_obstaculo.yy",},},
     {"id":{"name":"obj_umbrella","path":"objects/obj_umbrella/obj_umbrella.yy",},},
+    {"id":{"name":"obj_vidas","path":"objects/obj_vidas/obj_vidas.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"s_elemento_quad","path":"sprites/s_elemento_quad/s_elemento_quad.yy",},},
