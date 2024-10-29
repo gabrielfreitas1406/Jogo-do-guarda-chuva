@@ -3,6 +3,7 @@
 
 if(other.image_index == 1){
 	instance_destroy()
+	global.pontos += 5;
 }
 else{
 	instance_destroy(other)

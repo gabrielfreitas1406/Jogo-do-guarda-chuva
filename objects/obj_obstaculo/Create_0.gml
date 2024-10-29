@@ -9,7 +9,7 @@ if(instance_exists(obj_umbrella)){
 
 touched = false;
 inContact = false;
-
+hit = false; //Indica se foi atingido pelo jogador
 
 px = 0;
 py = 0;

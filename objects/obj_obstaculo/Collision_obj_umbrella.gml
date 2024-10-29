@@ -4,8 +4,7 @@
 //se o gurada chuva tá fechado
 
 
-if(other.image_index == 0){
-	
+if(other.image_index == 0){ // Se guarda_chuva fechado
 	if (!inContact){
 		global.lifes-=1;
 		inContact = true;
@@ -16,6 +15,8 @@ if(other.image_index == 0){
 	//instance_destroy(other);
 }
 else if(not touched){
+	hit = true;
+	global.pontos+= 1;
 	touched= true;
 	if (place_meeting(x, y, obj_umbrella)) {
 	    // Identificar o ponto de colisão

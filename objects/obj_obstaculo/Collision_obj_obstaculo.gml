@@ -5,3 +5,4 @@ with(other){
 	instance_destroy();
 }
 instance_destroy();
+global.pontos+=1;
