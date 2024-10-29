@@ -12,6 +12,6 @@ yy = y;
 
 image_speed = 0;
 
-angle_speed = 1;
-
+angle_speed = 2;
+max_angle_speed = 10;
 angle_when_opened = 0;

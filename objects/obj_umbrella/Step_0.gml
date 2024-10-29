@@ -2,29 +2,28 @@
 // Você pode escrever seu código neste editor
 
 if(keyboard_check(vk_space)){
+	image_angle += angle_speed;
 	image_index = 0;
 	speed = 0;
 }
 
-if(keyboard_check(vk_space)){
-	image_angle += angle_speed;
-}
 
 if(keyboard_check_released(vk_space)){
+	audio_play_sound(snd_open_umbrella, 0, 0)
 	image_index = 1;
 	angle_speed = 1;
 	angle_when_opened = image_angle;
 	direction = image_angle + 90;
-	speed = 2;
+	speed = 2
 	alarm[0] = 5;
 }
 
-if(angle_speed <= 10){
+if(angle_speed <= max_angle_speed){
 	angle_speed += 0.1;
 }
 
 if(global.lifes <=0){
-	instance_destroy()
+	room_restart()
 }
 
 

@@ -2,9 +2,10 @@
 // Você pode escrever seu código neste editor
 
 if(other.image_index == 0){
-	instance_destroy()
+	audio_play_sound(snd_enemy_hurt, 0, 0)
 	global.pontos += 3;
+	instance_destroy()
 }
 else{
-	instance_destroy(other)
+	global.lifes -= 1;
 }
