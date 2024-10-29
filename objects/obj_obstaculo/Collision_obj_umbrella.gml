@@ -6,7 +6,10 @@
 
 if(other.image_index == 0){
 	
-	global.lifes-=1;
+	if (!inContact){
+		global.lifes-=1;
+		inContact = true;
+	}
 	if (global.lifes <= 0){
 		game_restart();
 	}
