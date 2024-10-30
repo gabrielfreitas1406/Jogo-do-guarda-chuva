@@ -1,10 +1,13 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
-
+move_wrap(true, true, 0)
 
 if(keyboard_check(vk_space) or gamepad_button_check(4, gp_shoulderrb)){
-	image_angle += angle_speed;
+	if(powerup_velocidade) {
+		image_angle += angle_speed*2;
+	} else {
+		image_angle += angle_speed;
+	}
 	image_index = 0;
 	speed = 0;
 }
@@ -21,8 +24,13 @@ if(keyboard_check_released(vk_space) or gamepad_button_check_released(4, gp_shou
 	angle_speed = sign_angle_speed * 3;
 	angle_when_opened = image_angle;
 	direction = image_angle + 90;
-	speed = 2
-	alarm[0] = 5;
+	
+	if(powerup_velocidade) { 
+		speed = 3.5
+	} else { 
+		speed = 2
+	}
+
 }
 
 if(angle_speed >= 0 and angle_speed <= max_angle_speed){

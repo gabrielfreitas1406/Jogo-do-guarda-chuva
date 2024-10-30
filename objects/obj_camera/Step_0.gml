@@ -1,4 +1,3 @@
-
 if (instance_exists(obj_umbrella)) {
 	if (follow != noone) {
 		x_to = follow.x;
