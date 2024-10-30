@@ -5,10 +5,10 @@ if(x == 42){
 	alarm[0] = 10;
 }
 else if(x == 114){
-	
+	alarm[1] = 10;
 }
 else if(x == 186){
-	
+	alarm[2] = 10;
 }
 else if(x == 258){
 	game_end();
