@@ -57,7 +57,7 @@
     {"id":{"name":"obj_elemento_topo","path":"objects/obj_elemento_topo/obj_elemento_topo.yy",},},
     {"id":{"name":"obj_enemy_shooter","path":"objects/obj_enemy_shooter/obj_enemy_shooter.yy",},},
     {"id":{"name":"obj_enemy_slice","path":"objects/obj_enemy_slice/obj_enemy_slice.yy",},},
-    {"id":{"name":"obj_gerador_health","path":"objects/obj_gerador_health/obj_gerador_health.yy",},},
+    {"id":{"name":"obj_gerador_powerups","path":"objects/obj_gerador_powerups/obj_gerador_powerups.yy",},},
     {"id":{"name":"obj_gerador","path":"objects/obj_gerador/obj_gerador.yy",},},
     {"id":{"name":"obj_guarda_chuva","path":"objects/obj_guarda_chuva/obj_guarda_chuva.yy",},},
     {"id":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},},
