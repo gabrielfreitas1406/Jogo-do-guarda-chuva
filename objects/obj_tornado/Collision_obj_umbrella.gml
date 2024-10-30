@@ -15,6 +15,7 @@ if(other.image_index == 0){ // Se guarda_chuva fechado
 	//instance_destroy(other);
 }
 else if(not touched){
+	image_speed = 2;
 	audio_sound_pitch(snd_enemy_hurt, random_range(0.8, 1.2));
 	audio_play_sound(snd_enemy_hurt, 0, 0);
 	hit = true;

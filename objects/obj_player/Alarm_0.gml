@@ -13,7 +13,7 @@ else{
 }
 
 if(_enemy <= 70){
-	instance_create_layer(xx, yy, "Obstacles", obj_obstaculo);
+	instance_create_layer(xx, yy, "Obstacles", obj_tornado);
 }
 else if(_enemy <= 90){
 	instance_create_layer(xx, yy, "Obstacles", obj_enemy_slice);

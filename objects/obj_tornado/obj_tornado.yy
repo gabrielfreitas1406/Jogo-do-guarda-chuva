@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obstaculo",
+  "%Name":"obj_tornado",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_umbrella","path":"objects/obj_umbrella/obj_umbrella.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_obstaculo",
+  "name":"obj_tornado",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_elemento_quadrado",
-    "path":"sprites/s_elemento_quadrado/s_elemento_quadrado.yy",
+    "name":"spr_tornado",
+    "path":"sprites/spr_tornado/spr_tornado.yy",
   },
   "spriteMaskId":null,
   "visible":true,
