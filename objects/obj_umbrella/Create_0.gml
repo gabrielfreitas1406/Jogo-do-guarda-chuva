@@ -14,8 +14,10 @@ yy = y;
 
 image_speed = 0;
 
+powerup_sinuca = false;
+
 angle_speed = 0;
 sign_angle_speed = 1;
-max_angle_speed = 10;
-min_angle_speed = -10;
+max_angle_speed = 12;
+min_angle_speed = -12;
 angle_when_opened = 0;

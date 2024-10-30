@@ -7,9 +7,11 @@ if(instance_exists(obj_umbrella)){
 	speed = 0.5;
 }
 
-touched = false;
-inContact = false;
+touched = false; //variável de controle para execução única de um trecho
 hit = false; //Indica se foi atingido pelo jogador
+hit_sinuca = false; //Indica se foi atingido pelo jogador no modo sinuca
 
 px = 0;
 py = 0;
+
+can_hurt_player = true;

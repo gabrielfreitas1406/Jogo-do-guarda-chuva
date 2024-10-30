@@ -15,7 +15,7 @@ if(instance_exists(obj_umbrella)){
 	else if dist_to_umbrella <= 120{
 		sprite_index = spr_enemy_shoot_dark;
 		image_angle = dir + 100;
-		alarm[0] = 60;
+		alarm[0] = 90;
 		
 	}
 	//Se tá longe

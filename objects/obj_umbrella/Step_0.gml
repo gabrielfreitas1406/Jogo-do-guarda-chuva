@@ -18,7 +18,7 @@ if(keyboard_check_released(vk_space) or gamepad_button_check_released(4, gp_shou
 		pitch = 0.8
 	}
 	image_index = 1;
-	angle_speed = sign_angle_speed * 2;
+	angle_speed = sign_angle_speed * 3;
 	angle_when_opened = image_angle;
 	direction = image_angle + 90;
 	speed = 2

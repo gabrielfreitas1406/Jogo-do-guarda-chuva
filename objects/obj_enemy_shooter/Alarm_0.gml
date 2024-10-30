@@ -4,6 +4,6 @@
 
 if(sprite_index == spr_enemy_shoot_dark){
 	instance_create_layer(x, y, "Shoot", obj_raio)
-	alarm[0] = 60
+	alarm[0] = 90
 }
 
