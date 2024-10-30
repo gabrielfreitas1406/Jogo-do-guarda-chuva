@@ -66,6 +66,7 @@
     {"id":{"name":"obj_umbrella","path":"objects/obj_umbrella/obj_umbrella.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"RoomCreditos","path":"rooms/RoomCreditos/RoomCreditos.yy",},},
     {"id":{"name":"RoomMenu","path":"rooms/RoomMenu/RoomMenu.yy",},},
     {"id":{"name":"snd_enemy_hurt","path":"sounds/snd_enemy_hurt/snd_enemy_hurt.yy",},},
     {"id":{"name":"snd_open_umbrella","path":"sounds/snd_open_umbrella/snd_open_umbrella.yy",},},
@@ -94,6 +95,7 @@
     {"roomId":{"name":"RoomMenu","path":"rooms/RoomMenu/RoomMenu.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RoomCreditos","path":"rooms/RoomCreditos/RoomCreditos.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
