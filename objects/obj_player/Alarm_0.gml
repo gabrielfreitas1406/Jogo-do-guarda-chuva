@@ -15,7 +15,7 @@ else{
 if(_enemy <= 70){
 	instance_create_layer(xx, yy, "Obstacles", obj_obstaculo);
 }
-else if(_enemy <= 85){
+else if(_enemy <= 90){
 	instance_create_layer(xx, yy, "Obstacles", obj_enemy_slice);
 }
 else{
@@ -23,4 +23,4 @@ else{
 }
 
 
-alarm[0] = 120;
+alarm[0] = 60;

@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 with(other){
-	instance_destroy();
+	if(hit == true)	instance_destroy();
 }
 instance_destroy();
 global.pontos+=1;
