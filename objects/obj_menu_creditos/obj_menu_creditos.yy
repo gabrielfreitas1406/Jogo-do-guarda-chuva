@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu_opcoes",
+  "%Name":"obj_menu_creditos",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_menu_opcoes",
+  "name":"obj_menu_creditos",
   "overriddenProperties":[],
   "parent":{
-    "name":"opcoes",
-    "path":"folders/Objetos/menu/opcoes.yy",
+    "name":"creditos",
+    "path":"folders/Objetos/menu/creditos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
