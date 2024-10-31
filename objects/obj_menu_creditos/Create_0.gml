@@ -8,7 +8,7 @@ credit_speed = 2; // Ajuste a velocidade conforme necessário
 
 // Texto dos créditos
 creditos = [
-    "Desenvolvedores",
+    "Desenvolvedores:",
     "Gabriel Freitas",
     "Gabriel Luciano",
     "Vinicius Fonseca",

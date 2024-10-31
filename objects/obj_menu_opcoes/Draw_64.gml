@@ -14,7 +14,7 @@ draw_text(300, 120, "Opcoes do Jogo");
 draw_set_color(c_gray);
 draw_rectangle(slider_x, slider_y, slider_x + slider_width, slider_y + 20, false); // retângulo da barra
 slider_handle_x = slider_x + slider_width * global.volume;
-draw_set_color(c_lime);
+draw_set_color(c_yellow);
 draw_circle(slider_handle_x, slider_y + 10, 8, false); // pino da barra
 
 // Indicador de valor do volume
@@ -23,4 +23,4 @@ draw_text(300, 240, "Volume: " + string(floor(global.volume * 100)) + "%");
 
 // Instruções de controle
 draw_text(636.5, 350, "Setas direita e esquerda para ajustar o volume"); 
-draw_text(600, 410, "Pressione Esc para voltar ao menu principal");
+draw_text(487, 410, "Espaço volta para o menu principal");

@@ -15,7 +15,7 @@ if (keyboard_check_pressed(vk_left)) {
 }
 
 // Verifica se a tecla 'Esc' foi pressionada para voltar ao menu principal
-if (keyboard_check_pressed(vk_escape)) {
+if (keyboard_check_pressed(vk_space)) {
   
     room_goto(RoomMenu);
 }
