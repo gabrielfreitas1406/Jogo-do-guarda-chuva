@@ -16,7 +16,7 @@ else if(hit_sinuca){
 	else{
 		obj_umbrella.sprite_index = spr_umbrella;
 		obj_umbrella.powerup_sinuca = false;
-		instance_destroy()
+		death()
 		instance_destroy(other)
 	}
 }
@@ -24,5 +24,5 @@ else if(hit_sinuca){
 if(place_meeting(x, y, obj_player)){
 	if(can_hurt_player) global.lifes-=1;
 	can_hurt_player = false;
-	instance_destroy();
+	death();
 }

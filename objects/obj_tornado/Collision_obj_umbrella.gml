@@ -9,12 +9,11 @@ if(other.image_index == 0){ // Se guarda_chuva fechado
 		global.lifes-=1;
 		can_hurt_player = false;
 	}
-	instance_destroy();
+	death();
 }
 if(not touched){ //Se guarda chuva aberto
-	alarm[0] = 120;
+	alarm[0] = 30;
 	touched= true; //inimigo foi tocado
-	image_speed = 2;
 	audio_sound_pitch(snd_enemy_hurt, random_range(0.8, 1.2)); //Som de ferido
 	audio_play_sound(snd_enemy_hurt, 0, 0);
 	hit = true;
@@ -88,7 +87,7 @@ if(not touched){ //Se guarda chuva aberto
 		else{
 			other.sprite_index = spr_umbrella;
 			other.powerup_sinuca = false;
-			instance_destroy();
+			death();
 		}
 		
 	}

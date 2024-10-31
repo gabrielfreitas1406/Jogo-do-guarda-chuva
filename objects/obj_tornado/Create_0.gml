@@ -15,3 +15,8 @@ px = 0;
 py = 0;
 
 can_hurt_player = true;
+
+function death(){
+	sprite_index = spr_tornado_death;
+}
+

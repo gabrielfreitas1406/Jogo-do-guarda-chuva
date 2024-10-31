@@ -1,18 +1,21 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+if(hit){
+	death();
+}
 
 if(hit and hit_sinuca){
 	other.hit_sinuca = true;
-	instance_destroy();
-	global.pontos+=1;
+	instance_destroy()
+	
 }
 
 
 if(hit and not hit_sinuca){
-	instance_destroy()
-	instance_destroy(other);
-	global.pontos+=1;
+	death()
+	other.death();
+
 }
 
 if(hit_sinuca and not other.hit_sinuca){
@@ -32,9 +35,8 @@ if(hit_sinuca and not hit){
 	else{
 		obj_umbrella.sprite_index = spr_umbrella;
 		obj_umbrella.powerup_sinuca = false;
-		instance_destroy()
-		instance_destroy(other)
-		global.pontos+=1;
+		death()
+		other.death()
 	}
 }
 
