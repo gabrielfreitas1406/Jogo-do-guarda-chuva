@@ -104,6 +104,7 @@
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
     {"id":{"name":"spr_umbrella_pvp","path":"sprites/spr_umbrella_pvp/spr_umbrella_pvp.yy",},},
     {"id":{"name":"spr_umbrella_sinuca","path":"sprites/spr_umbrella_sinuca/spr_umbrella_sinuca.yy",},},
+    {"id":{"name":"spr_umbrella_speed","path":"sprites/spr_umbrella_speed/spr_umbrella_speed.yy",},},
     {"id":{"name":"spr_umbrella","path":"sprites/spr_umbrella/spr_umbrella.yy",},},
   ],
   "resourceType":"GMProject",
