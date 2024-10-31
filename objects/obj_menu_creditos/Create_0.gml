@@ -4,11 +4,11 @@
 credit_y = display_get_gui_height(); 
 
 // Velocidade de subida dos créditos
-credit_speed = 1; // Ajuste a velocidade conforme necessário
+credit_speed = 2; // Ajuste a velocidade conforme necessário
 
 // Texto dos créditos
 creditos = [
-    "Desenvolvedores",
+    "Desenvolvedores:",
     "Gabriel Freitas",
     "Gabriel Luciano",
     "Vinicius Fonseca",
