@@ -1,21 +1,26 @@
-// Define a fonte desejada
+// Fundo semi-transparente do menu
+draw_set_alpha(0.7);
+draw_set_color(c_black);
+draw_rectangle(50, 100, 1300, 500, false); // área de fundo do menu
+draw_set_alpha(1);
+
+// Cabeçalho do menu
 draw_set_font(fnt_display);
-draw_set_halign(fa_center); // Alinha o texto ao centro
-draw_set_color(c_blue);
+draw_set_halign(fa_center);
+draw_set_color(c_yellow);
+draw_text(300, 120, "Opcoes do Jogo");
 
-// Título do menu
-draw_text(300, 50, "Controle de Volume");
+// Barra de volume estilizada
+draw_set_color(c_gray);
+draw_rectangle(slider_x, slider_y, slider_x + slider_width, slider_y + 20, false); // retângulo da barra
+slider_handle_x = slider_x + slider_width * global.volume;
+draw_set_color(c_lime);
+draw_circle(slider_handle_x, slider_y + 10, 8, false); // pino da barra
 
-// Desenhar a barra deslizante
-draw_rectangle(slider_x, slider_y, slider_x + slider_width, slider_y + 10, false); // Retângulo da barra
+// Indicador de valor do volume
+draw_set_color(c_orange);
+draw_text(300, 240, "Volume: " + string(floor(global.volume * 100)) + "%");
 
-// Calcular a posição do pino da barra com base no volume
-slider_handle_x = slider_x + slider_width * global.volume; // Posição do "pino" da barra
-
-// Definir a cor do pino
-draw_set_color(c_yellow); // Altere 'c_red' para a cor desejada
-draw_circle(slider_handle_x, slider_y + 5, 5, false); // Pino da barra
-
-// Mostrar o valor do volume em texto
-draw_set_color(c_blue); // Voltar a cor do texto para azul
-draw_text(300, 200, "Volume: " + string(floor(global.volume * 100)) + "%");
+// Instruções de controle
+draw_text(636.5, 350, "Setas direita e esquerda para ajustar o volume"); 
+draw_text(600, 410, "Pressione Esc para voltar ao menu principal");
