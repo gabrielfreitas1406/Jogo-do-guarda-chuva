@@ -6,3 +6,4 @@
 // y = yy;
 
 powerup_velocidade = false
+sprite_index = spr_umbrella
