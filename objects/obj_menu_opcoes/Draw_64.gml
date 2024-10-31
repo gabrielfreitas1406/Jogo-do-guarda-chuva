@@ -21,6 +21,12 @@ draw_circle(slider_handle_x, slider_y + 10, 8, false); // pino da barra
 draw_set_color(c_orange);
 draw_text(300, 240, "Volume: " + string(floor(global.volume * 100)) + "%");
 
+
 // Instruções de controle
 draw_text(636.5, 350, "Setas direita e esquerda para ajustar o volume"); 
 draw_text(487, 410, "Espaço volta para o menu principal");
+
+
+// Modo Noturno - Alternador
+draw_text(636.5, 470, "Modo Noturno: " + (global.night_mode ? "Ativado" : "Desativado"));
+draw_text(487, 530, "Pressione Enter para alternar o modo");
