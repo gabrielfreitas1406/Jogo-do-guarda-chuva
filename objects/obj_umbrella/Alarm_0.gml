@@ -4,3 +4,5 @@
 //  speed = 0;
 // x = xx;
 // y = yy;
+
+powerup_velocidade = false

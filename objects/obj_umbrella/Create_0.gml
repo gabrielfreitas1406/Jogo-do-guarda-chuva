@@ -15,6 +15,8 @@ yy = y;
 image_speed = 0;
 
 powerup_sinuca = false;
+powerup_velocidade = false;
+powerup_ataque = false;
 
 angle_speed = 0;
 sign_angle_speed = 1;
