@@ -14,8 +14,18 @@ if (keyboard_check_pressed(vk_left)) {
     audio_master_gain(global.volume);
 }
 
-// Verifica se a tecla 'Esc' foi pressionada para voltar ao menu principal
+// Verifica se a tecla espaço foi pressionada para voltar ao menu principal
 if (keyboard_check_pressed(vk_space)) {
-  
     room_goto(RoomMenu);
+}
+
+
+// Alternar modo noturno ao pressionar Enter
+if (keyboard_check_pressed(vk_enter)) {
+    global.night_mode = !global.night_mode; // Alterna entre true e false
+}
+
+// Sair ao pressionar Esc
+if (keyboard_check_pressed(vk_escape)) {
+    room_goto(menu_principal); // Substitua pelo nome da sala do menu principal
 }

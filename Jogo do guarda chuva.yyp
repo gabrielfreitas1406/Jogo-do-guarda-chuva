@@ -88,6 +88,7 @@
     {"id":{"name":"snd_ray_sound","path":"sounds/snd_ray_sound/snd_ray_sound.yy",},},
     {"id":{"name":"s_elemento_quad","path":"sprites/s_elemento_quad/s_elemento_quad.yy",},},
     {"id":{"name":"s_elemento_quadrado","path":"sprites/s_elemento_quadrado/s_elemento_quadrado.yy",},},
+    {"id":{"name":"s_fundo_noite","path":"sprites/s_fundo_noite/s_fundo_noite.yy",},},
     {"id":{"name":"s_fundo","path":"sprites/s_fundo/s_fundo.yy",},},
     {"id":{"name":"s_guarda_chuva_aberto","path":"sprites/s_guarda_chuva_aberto/s_guarda_chuva_aberto.yy",},},
     {"id":{"name":"s_guarda_chuva_fechado","path":"sprites/s_guarda_chuva_fechado/s_guarda_chuva_fechado.yy",},},
