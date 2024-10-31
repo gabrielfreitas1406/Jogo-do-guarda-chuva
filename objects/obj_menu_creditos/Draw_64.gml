@@ -2,7 +2,7 @@
 
 draw_set_font(fnt_display);  // Define a fonte desejada
 draw_set_halign(fa_center); // Alinha o texto ao centro
-draw_set_color(c_blue); // Define a cor do texto como amarelo
+draw_set_color(c_yellow); // Define a cor do texto como amarelo
 
 // Desenha cada linha dos créditos com base na posição atual
 for (var i = 0; i < array_length(creditos); i++) {
