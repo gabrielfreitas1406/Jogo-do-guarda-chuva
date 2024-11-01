@@ -1,3 +1,7 @@
+audio_stop_sound(snd_music_Umbrellalala);
+if(not audio_is_playing(snd_umbra_fella))audio_play_sound(snd_umbra_fella, 0, 1);
+
+
 cam_width = 400;
 cam_height = 240;
 

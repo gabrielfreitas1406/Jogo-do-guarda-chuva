@@ -2,6 +2,9 @@
 // Você pode escrever seu código neste editor
 
 
+if(not audio_is_playing(snd_music_Umbrellalala)){
+	audio_play_sound(snd_music_Umbrellalala, 0, 1);
+}
 image_index=1;
 image_speed = 0;
 
