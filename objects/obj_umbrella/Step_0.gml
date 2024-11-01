@@ -50,3 +50,5 @@ if(global.lifes != vida_antes){
 	vida_antes = global.lifes
 	alarm[2] = 30;
 }
+
+if(not powerup_rainbow and  instance_exists(obj_rainbow_shield)) instance_destroy(obj_rainbow_shield);

@@ -13,7 +13,7 @@ if(hit and hit_sinuca){
 
 
 if(hit and not hit_sinuca){
-	death()
+	instance_destroy()
 	other.death();
 
 }

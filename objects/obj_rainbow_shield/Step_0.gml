@@ -2,5 +2,5 @@
 // Você pode escrever seu código neste editor
 
 
-x = obj_player.x;
-y = obj_player.y;
+x = obj_umbrella.x;
+y = obj_umbrella.y;

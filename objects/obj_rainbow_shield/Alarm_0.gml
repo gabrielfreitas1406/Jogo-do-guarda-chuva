@@ -1,4 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-spawn_interval = 360;
-alarm[0] = spawn_interval; // Inicia o temporizador
+obj_umbrella.powerup_rainbow = false;
+obj_umbrella.sprite_index = spr_umbrella;

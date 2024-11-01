@@ -9,12 +9,11 @@ var spawn_y = irandom(room_height);
 
 // Cria o objeto de vida na posição aleatória
 
-show_debug_message(_powerup_random)
 
-if(_powerup_random < 3){
+if(_powerup_random <= 4){
 	instance_create_layer(spawn_x, spawn_y, "Obstacles", obj_health); 
 }
-else if (_powerup_random < 5)
+else if (_powerup_random <= 6)
 	instance_create_layer(spawn_x, spawn_y, "Obstacles", obj_powerup_velocidade);
 else{
 	instance_create_layer(spawn_x, spawn_y, "Obstacles", obj_powerup_sinuca); 

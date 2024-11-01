@@ -23,4 +23,4 @@ else{
 }
 
 
-alarm[0] = 120;
+alarm[0] = 180 / dificuldade;

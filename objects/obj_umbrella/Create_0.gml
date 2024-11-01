@@ -18,6 +18,7 @@ image_speed = 0;
 powerup_sinuca = false;
 powerup_velocidade = false;
 powerup_ataque = false;
+powerup_rainbow = false;
 
 angle_speed = 0;
 sign_angle_speed = 1;

@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tornado",
   "bboxMode":2,
-  "bbox_bottom":24,
+  "bbox_bottom":21,
   "bbox_left":11,
   "bbox_right":25,
   "bbox_top":3,

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_icon_velocidade",
-    "path":"sprites/spr_icon_velocidade/spr_icon_velocidade.yy",
+    "name":"spr_powerup_speed",
+    "path":"sprites/spr_powerup_speed/spr_powerup_speed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

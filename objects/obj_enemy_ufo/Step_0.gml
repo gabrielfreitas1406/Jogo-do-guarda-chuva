@@ -11,7 +11,7 @@ if(instance_exists(obj_umbrella)){
 	dist_to_umbrella = distance_to_object(obj_umbrella);
 	
 	//Se guarda-chuva tá perto e ainda não tá no frame escuro
-	if(dist_to_umbrella <= 100){
+	if(dist_to_umbrella <= 1000){
 		direction = dir;
 		speed = 1;
 	}	
