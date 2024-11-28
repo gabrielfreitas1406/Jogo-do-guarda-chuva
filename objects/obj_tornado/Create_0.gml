@@ -14,6 +14,7 @@ hit_sinuca = false; //Indica se foi atingido pelo jogador no modo sinuca
 px = 0;
 py = 0;
 
+
 can_hurt_player = true;
 
 function death(){

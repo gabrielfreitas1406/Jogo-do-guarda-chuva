@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_cursor_move",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.292902,
+  "name":"snd_cursor_move",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_cursor_move.wav",
+  "type":0,
+  "volume":1.0,
+}

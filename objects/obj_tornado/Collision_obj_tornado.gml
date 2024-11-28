@@ -5,7 +5,12 @@ if(hit){
 	death();
 }
 
+if(other.hit and hit){
+	instance_destroy();
+}
+
 if(hit and hit_sinuca){
+	audio_play_sound(snd_enemy_hurt, 0, 0)
 	other.hit_sinuca = true;
 	instance_destroy()
 	

@@ -13,11 +13,9 @@ creditos = [
     "Gabriel Luciano",
     "Vinicius Fonseca",
 	"Arte:",
-	"Gabriel Freitas",
     "Gabriel Luciano",
-    "Vinicius Fonseca",
-	"Música sem copyright",
-	"2024"
+	"Sound Design:",
+	"Gabriel Luciano"
 ];
 
 line_height = 100; // Altura de cada linha (espaçamento entre os créditos)

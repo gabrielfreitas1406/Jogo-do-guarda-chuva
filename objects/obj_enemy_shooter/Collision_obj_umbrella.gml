@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-if(other.image_index == 1 and can_hurt_player){
+if(other.image_index == 1){
 	can_hurt_player = false;
 	global.pontos += 5;
 	audio_play_sound(snd_enemy_hurt, 0, 0);

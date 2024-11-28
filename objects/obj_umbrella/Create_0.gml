@@ -15,6 +15,8 @@ yy = y;
 
 image_speed = 0;
 
+spd = 0;
+
 powerup_sinuca = false;
 powerup_velocidade = false;
 powerup_ataque = false;

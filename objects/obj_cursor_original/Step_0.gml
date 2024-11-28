@@ -2,10 +2,12 @@
 // Você pode escrever seu código neste editor
 
 if(keyboard_check_pressed(vk_left)){
+	audio_play_sound(snd_cursor_move, 0, 0)
 	x -= 72;
 }
 else if(keyboard_check_pressed(vk_right)){
 	x += 72;
+	audio_play_sound(snd_cursor_move, 0, 0)
 }
 
 if(x < 0){

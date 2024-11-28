@@ -23,10 +23,11 @@ draw_text(300, 240, "Volume: " + string(floor(global.volume * 100)) + "%");
 
 
 // Instruções de controle
-draw_text(636.5, 350, "Setas direita e esquerda para ajustar o volume"); 
-draw_text(487, 410, "Espaço volta para o menu principal");
+draw_text(636.5, 350, ">- ou -< para ajustar o volume"); 
+draw_text(487, 410, "Espaço para voltar ao menu principal");
 
-
+/*
 // Modo Noturno - Alternador
 draw_text(636.5, 470, "Modo Noturno: " + (global.night_mode ? "Ativado" : "Desativado"));
 draw_text(487, 530, "Pressione Enter para alternar o modo");
+*/

@@ -5,6 +5,10 @@
 if(not audio_is_playing(snd_music_Umbrellalala)){
 	audio_play_sound(snd_music_Umbrellalala, 0, 1);
 }
+
+if(audio_is_playing(snd_umbra_fella)){
+	audio_stop_sound(snd_umbra_fella)
+}
 image_index=1;
 image_speed = 0;
 
